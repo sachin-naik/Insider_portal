@@ -1,9 +1,9 @@
 # InsiderPortal
-#About
+## About
 
 Portal for managing your corporate activities like time sheet booking, effort tracking, requirement analysis and knowledge management system.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
+
 
 ## Development server
 
