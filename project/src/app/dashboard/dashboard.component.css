@@ -1,0 +1,15 @@
+.row {
+    margin: 1% 0 auto;
+}
+
+button {
+    width: 100%;
+    background-color: #222222;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+md-card-title {
+    font-size: 17px;
+    font-weight: bold;
+}

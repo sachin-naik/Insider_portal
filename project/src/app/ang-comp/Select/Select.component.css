@@ -1,0 +1,21 @@
+.content_class {
+    width: 80%;
+}
+
+md-card {
+    width: 60%;
+    margin: 0 auto;
+}
+
+img {
+    height: 300px;
+    width: 500px;
+}
+
+.details_containers {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+md-slider {
+    width: 300px;
+}

@@ -1,0 +1,22 @@
+#brand-img {
+    padding: 0;
+    width: 30px;
+    height: 80px;
+}
+
+md-card {
+    width: 100%;
+}
+
+img {
+    padding: 20px;
+}
+
+md-card-title {
+    font-weight: bold;
+}
+
+md-card-content {
+    text-align: justify;
+    justify-content: center;
+}

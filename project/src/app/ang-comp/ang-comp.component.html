@@ -1,0 +1,42 @@
+<md-sidenav-container>
+    <md-toolbar>
+        <button md-raised-button id="btn-time" (click)="sidenav.toggle()">
+            <md-icon>menu</md-icon>
+        </button>
+        <button md-raised-button id="home" [routerLink]="['/ang-comp', home_link]">
+            <md-icon class="pull-left">home</md-icon> Angular2 - Components
+        </button>
+    </md-toolbar>
+    <router-outlet></router-outlet>
+    <md-sidenav #sidenav>
+        <md-nav-list>
+            <h6> FORM CONTROL </h6>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', input_link]"> Input </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', checkbox_link]"> CheckBox </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', radio_link]"> Radio Button </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', date_link]"> Date Picker </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', select_link]"> Select </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', slider_link]"> Slider </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', slide_link]"> Slide Toggle </a>
+            <h6> NAVIGATION </h6>
+            <a md-list-item class="comp-list" class="comp-list" [routerLink]="['/ang-comp', menu_link]"> Menu </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', sidenav_link]"> SideNav </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', toolbar_link]"> Toolbar </a>
+            <h6> LAYOUT </h6>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', list_link]"> List </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', grid_link]"> Grid List </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', card_link]"> Card </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', tabs_link]"> Tabs </a>
+            <h6> BUTTON, INDICATOR & ICONS </h6>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', button_link]"> Button </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', toggle_link]"> Button Toggle </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', chips_link]"> Chips </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', icon_link]"> Icon </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', spinner_link]"> Progress Spinner </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', bar_link]"> Progress Bar </a>
+            <h6> POPUPS & MODALS </h6>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', tooltip_link]"> Tooltip </a>
+            <a md-list-item class="comp-list" [routerLink]="['/ang-comp', snackbar_link]"> Snackbar </a>
+        </md-nav-list>
+    </md-sidenav>
+</md-sidenav-container>

@@ -1,0 +1,41 @@
+<!-- The drawer is always open in large screens. The header is always shown,
+  even in small screens. -->
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+            mdl-layout--fixed-header">
+    
+    <main style="padding:10px;">
+        <div class="page-content">
+            <p>&lt;md-checkbox&gt; is a wrapper for native input and textarea elements. This container applies Material Design styles and behavior while still allowing direct access to the underlying native element.</p>
+            <p>The native element wrapped by the md-input-container must be marked with the mdInput directive.</p>
+            <md-card>
+                <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+                    <header class="mdl-layout__header">
+                        <div class="mdl-layout__header-row">
+                            <!-- Title -->
+                            <span class="mdl-layout-title">CheckBox</span>
+                            <!--for nspace-->
+                            <div class="mdl-layout-spacer"></div>
+                            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored" onclick="document.getElementById('code').style.display='block'">
+                                <i class="material-icons">code</i>
+                            </button>
+                        </div>
+                    </header>
+
+                    <main class="mdl-layout__content">
+                        <div class="page-content" style="padding:20px;">
+                            <hr>
+                            <md-checkbox>Check Box</md-checkbox><br>
+                            <span id="code" style="display:none"><hr>Html<br>
+                             <samp> &lt;md-checkbox&gt; Check Box &lt;md-checkbox&gt;</samp>
+                            <hr>
+                            API Reference<br>
+                             <samp> import "MdCheckboxModule" from '@angular/material'; </samp>
+                            </span>
+                            <hr>
+                        </div>
+                    </main>
+                </div>
+            </md-card>
+        </div>
+    </main>
+</div>
